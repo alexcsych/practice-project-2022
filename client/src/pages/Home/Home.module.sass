@@ -291,6 +291,9 @@
   background-color: #FAFAFA
 
 
+.firstNamingPlatformContainer
+  @include innerContainer
+
 .whiteContainer
   @include innerContainer
   background-color: white
@@ -410,4 +413,26 @@
     color: white
     background-color: #28D2D1
 
+.divStartAContest
+  width: 100%
 
+.divStartAContestContent
+  box-sizing: border-box
+  margin: 20px auto
+  max-width: 1140px
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 30px
+  background: linear-gradient(45deg,#43b1ff,#412d8f)
+  color: white
+  gap: 10px
+  @media screen and (max-width:850px)
+    flex-direction: column
+    align-items: start
+  i
+    color: black
+    font-weight: 200
+    background-color: white
+    padding: 20px
